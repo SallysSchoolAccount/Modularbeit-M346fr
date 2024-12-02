@@ -1,3 +1,4 @@
 <?php
-$a = "hello world";
-echo $a;
+$datei = "server.txt";
+$alles = file_get_contents($datei);
+echo $alles;
